@@ -29,3 +29,10 @@ brews:
       email: codechenx@gmail.com
     description: "just a"
     homepage: "just a test"
+nfpms:
+  - maintainer: codechenx
+    license: Apache 2.0
+    formats:
+        - deb
+        - rpm
+    bindir: /usr/bin
