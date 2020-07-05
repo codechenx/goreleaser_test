@@ -23,7 +23,7 @@ release:
 brews:
   - github:
       owner: codechenx
-      name: homebrew-test
+      name: hombrew-test
     commit_author:
       name: codechenx
       email: codechenx@gmail.com
