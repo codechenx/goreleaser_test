@@ -1,9 +1,6 @@
 name: goreleaser
 
-on:
-  push:
-    tags:
-      - "*
+on: release
 jobs:
   goreleaser:
     runs-on: ubuntu-latest
