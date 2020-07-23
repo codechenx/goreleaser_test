@@ -20,15 +20,6 @@ snapshot:
   name_template: "{{ .Tag }}-next"
 release:
   name_template: "{{.ProjectName}}-{{.Env.USER}}"
-brews:
-  - github:
-      owner: codechenx
-      name: hombrew-test
-    commit_author:
-      name: codechenx
-      email: codechenx@gmail.com
-    description: "just a"
-    homepage: "just a test"
 nfpms:
   - maintainer: codechenx
     license: Apache 2.0
